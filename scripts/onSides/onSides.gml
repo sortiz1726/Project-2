@@ -1,0 +1,1 @@
+return (place_meeting(x + 1, y, Obj_Static) || place_meeting(x - 1, y, Obj_Static));
