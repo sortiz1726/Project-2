@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "4acbbe29-74e6-4959-86b3-f0b3a216ff2c",
+            "Value": {
+                "id": "4977bf48-f440-4683-84b1-1961bfdf7cf7",
+                "resourcePath": "sprites\\spr_Waffle\\spr_Waffle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f137e12-64d0-402c-8616-09268cb1dd8a",
             "Value": {
                 "id": "956b77c2-2083-44cd-8391-5c2c8d241988",
