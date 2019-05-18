@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "8b69a334-05ae-416c-aae7-99fe39066fec",
+            "Value": {
+                "id": "8058064f-8487-4909-871a-569bfab9ae1a",
+                "resourcePath": "objects\\obj_Sofa\\obj_Sofa.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8cc731dc-49ad-4a99-a50b-b7fc1b2f7a3e",
             "Value": {
                 "id": "766f8bc0-b97c-4214-a289-cb9101596561",
