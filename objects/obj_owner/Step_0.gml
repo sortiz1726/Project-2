@@ -1,3 +1,5 @@
 /// @description Insert description here
-if(items_need == 0) show_message("Good Dog");
-room_restart();
+stringBuidler = "I need " + string(items_need) + " item";
+if(items_need > 1) stringBuidler += "s";
+textBox.dialouge = stringBuidler;
+if(items_need == 0) alarm_set(0, 1);

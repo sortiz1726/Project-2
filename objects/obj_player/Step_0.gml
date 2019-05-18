@@ -8,7 +8,7 @@ key_select = keyboard_check(vk_space);
 
 if(collision_circle(x, y - sprite_yoffset + sprite_height/2, radius, obj_owner, false, true) != noone)
 {
-	inventory_give(obj_owner);
+	if(key_select) inventory_item_give(obj_owner);
 }
 
 if(key_crouch) sprite_index = spr_player_crouch;

@@ -6,6 +6,9 @@ var object_reciever = argument0;
 
 with(obj_inventory)
 {
-	item_array[current_item] = noone;
-	object_reciever.items_need -= 1;
+	if(item_array[current_item] != noone)
+	{
+		item_array[current_item] = noone;
+		object_reciever.items_need -= 1;
+	}	
 }
