@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "d6200518-f491-4b59-8a46-fe61d324bba5",
+            "Value": {
+                "id": "a2836d4a-e35a-4a35-8ae6-b4670a514887",
+                "resourcePath": "sprites\\spr_bone\\spr_bone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d872995b-2ea7-41cb-bf2f-8fc170ad33f1",
             "Value": {
                 "id": "38e843e0-0af0-4a9e-af5e-0663a0e14514",
