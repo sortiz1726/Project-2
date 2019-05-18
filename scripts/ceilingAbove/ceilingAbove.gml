@@ -1,0 +1,1 @@
+return place_meeting(x, y - sprite_height, Obj_Static);
