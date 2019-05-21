@@ -3,15 +3,16 @@ key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(ord("W"));
 key_crouch = keyboard_check(ord("S"));
-key_select = keyboard_check(vk_space);
+key_select = keyboard_check_pressed(vk_space);
 
 
+//gives item to owner
 if(collision_circle(x, y - sprite_yoffset + sprite_height/2, radius, obj_owner, false, true) != noone)
 {
-	if(key_select) inventory_item_give(obj_owner);
+	if(key_select) inventory_item_give(obj_owner)
 }
 
-if(key_crouch) sprite_index = spr_player_crouch;
+if(key_crouch && onGround()) sprite_index = spr_player_crouch;
 if(sprite_index == spr_player_crouch && !key_crouch && !ceilingAbove()) sprite_index = spr_player;
 // calculates movement
 #region horiztonal movement

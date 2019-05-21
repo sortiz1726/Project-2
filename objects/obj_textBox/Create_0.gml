@@ -1,3 +1,3 @@
 /// @description gather info
 boxWidth = sprite_get_width(spr_textBox);
-stringHeight = string_height(dialouge);
+stringHeight = font_get_size(fnt_text) * 1.2;
