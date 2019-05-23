@@ -1,2 +1,3 @@
 /// @description adds item to inventory
-inventory_add(object_index);
+
+inventory_item_add(object_index);

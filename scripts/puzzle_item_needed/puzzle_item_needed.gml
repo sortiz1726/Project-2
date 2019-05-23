@@ -4,8 +4,9 @@
 /// @param object_reciever;
 
 var item = argument0;
-var object_reciever = argument1;
+if(item == noone) return false;
 
+var object_reciever = argument1;
 var length = array_length_1d(object_reciever.items_needed);
 
 
@@ -13,12 +14,11 @@ for(var i = 0; i < length; i++)
 {
 	if(item == object_reciever.items_needed[i])
 	{
-		
 		show_debug_message("I NEED IT");
 		object_reciever.items_needed[i] = noone;
+		inventory_item_give();
 		return true;
 	}
 }
-
-show_debug_message("I DON'T NEED IT");
 return false;
+show_debug_message("I DON'T NEED IT");

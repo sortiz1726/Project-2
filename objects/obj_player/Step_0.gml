@@ -1,37 +1,77 @@
-/// @description: gets player input
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(ord("W"));
-key_crouch = keyboard_check(ord("S"));
-key_select = keyboard_check_pressed(vk_space);
+/// @description: gets player input and produces interactive output
 
+#region gathers player input
+	
+	#region movement input
+		key_left = keyboard_check(ord("A"));
+		key_right = keyboard_check(ord("D"));
+		key_jump = keyboard_check_pressed(ord("W"));
+		key_crouch = keyboard_check(ord("S"));
+	#endregion
 
-//gives item to owner
-if(collision_circle(x, y - sprite_yoffset + sprite_height/2, radius, obj_owner, false, true) != noone)
-{
-	if(key_select) inventory_item_give(obj_owner)
-}
+	#region inventory input
+		key_select = keyboard_check_pressed(vk_space);
+		key_scroll_left = keyboard_check_pressed(vk_left);
+		key_scroll_right = keyboard_check_pressed(vk_right);
+	#endregion
+	
+#endregion
 
-if(key_crouch && onGround()) sprite_index = spr_player_crouch;
-if(sprite_index == spr_player_crouch && !key_crouch && !ceilingAbove()) sprite_index = spr_player;
-// calculates movement
-#region horiztonal movement
-if(onSides()) hsp = 0;
-
-var move = key_right - key_left;
-if(move != 0)image_xscale = sign(move);
-if(onGround()) hsp = move * walkspd;
-else
-{
-	if(abs(hsp) <= walkspd) hsp += move * 2;
-	else hsp = walkspd * sign(hsp);
-}
+#region calculates movement
+	
+	#region calculates horiztonal movement
+		// determines which horizontal direction to move in.
+		var move = key_right - key_left;
+		// determines which direction sprite is facing
+		if(move != 0) image_xscale = sign(move);
+		// ground and air horizontal movement
+		if(onGround()) hsp = move * walkspd;
+		else hsp = clamp(hsp + move * 2, -walkspd, walkspd);
+	#endregion
+	
+	#region calculates vertical movement
+		vsp += grv;
+		if(onGround() && (key_jump)) vsp = -jump;	
+	#endregion
 
 #endregion
-#region vertical movement
-vsp += grv;
-#endregion
-if(onGround() && (key_jump)) vsp = -jump;
 // moves the object
 move_object(hsp, vsp, Obj_Static);
-if(onGround()) vsp = 0;
+
+#region interact with inventory 
+
+	#region scroll through inventory
+		var scroll = key_scroll_right - key_scroll_left;
+		if(scroll != 0)
+		{
+			with(obj_inventory)
+			{
+				current_slot = (current_slot + scroll) % inventory_size;
+				if(current_slot < 0) current_slot = inventory_size - 1;
+			}
+		}
+	#endregion
+	
+	#region attempt to give item from inventory
+	
+		//gives item to owner
+		var x_center = x - sprite_xoffset + sprite_width/2;
+		var y_center = y - sprite_yoffset + sprite_height/2;
+
+		if(key_select)
+		{
+			var puzzle_reciever = collision_circle(x_center, y_center, radius, Obj_Puzzle_reciever, false, true);
+			if(puzzle_reciever != noone)
+			{
+				puzzle_item_needed(obj_inventory.current_item, puzzle_reciever);
+			}
+		}
+	#endregion
+	
+#endregion
+
+
+#region animation state
+	if(key_crouch && onGround()) sprite_index = spr_player_crouch;
+	if(sprite_index == spr_player_crouch && !key_crouch && !ceilingAbove()) sprite_index = spr_player;
+#endregion

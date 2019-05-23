@@ -7,7 +7,7 @@ for(var i = 0; i < inventory_size; i++)
 {
 	#region draws inventory without items
 	var current = 0
-	if(i == current_item) current = 1;
+	if(i == current_slot) current = 1;
 	draw_sprite(sprite_index, current, draw_x, y);
 	#endregion
 	
