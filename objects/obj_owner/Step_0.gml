@@ -1,4 +1,6 @@
-/// @description creates text depiciting what Items are needed
+/// @description Insert description here
+// You can write your code in this editor
+event_inherited();
 
 stringBuidler = "I need ";
 
@@ -12,5 +14,3 @@ for(var i = 0; i < length; i++)
 	else stringBuidler += ", " + string_array[i];
 }
 textBox.dialouge = stringBuidler;
-
-if(items_need == 0) alarm_set(0, 1);

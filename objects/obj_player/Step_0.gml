@@ -73,5 +73,5 @@ move_object(hsp, vsp, Obj_Static);
 
 #region animation state
 	if(key_crouch && onGround()) sprite_index = spr_player_crouch;
-	if(sprite_index == spr_player_crouch && !key_crouch && !ceilingAbove()) sprite_index = spr_player;
+	if((sprite_index == spr_player_crouch && !key_crouch && !ceilingAbove()) || key_jump) sprite_index = spr_player;
 #endregion

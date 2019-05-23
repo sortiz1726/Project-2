@@ -16,6 +16,7 @@ for(var i = 0; i < length; i++)
 	{
 		show_debug_message("I NEED IT");
 		object_reciever.items_needed[i] = noone;
+		object_reciever.amount_of_items_needed -= 1;
 		inventory_item_give();
 		return true;
 	}
