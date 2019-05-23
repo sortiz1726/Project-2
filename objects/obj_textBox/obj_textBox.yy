@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "14f467d0-36d3-40c5-963a-121c68ffc3de"
+        },
+        {
+            "id": "b1ed5fae-4b08-421d-8e9f-0223d6d904b1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "14f467d0-36d3-40c5-963a-121c68ffc3de"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -55,6 +65,20 @@
             "value": "",
             "varName": "dialouge",
             "varType": 2
+        },
+        {
+            "id": "a0601dae-4cd0-4e49-86cc-b686ff716a54",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "250",
+            "varName": "range_before_it_appears",
+            "varType": 0
         }
     ],
     "solid": false,

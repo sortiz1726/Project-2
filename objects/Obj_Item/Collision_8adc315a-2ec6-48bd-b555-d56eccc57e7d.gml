@@ -1,2 +1,2 @@
 /// @description destroys itself
-instance_destroy();
+if(inventory_item_add(object_index)) instance_destroy();

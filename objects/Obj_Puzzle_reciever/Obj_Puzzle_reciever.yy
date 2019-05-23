@@ -50,7 +50,10 @@
                 "obj_waffle",
                 "obj_keys",
                 "obj_bone",
-                "obj_item_example"
+                "obj_item_example",
+                "obj_lemonade",
+                "obj_laxatives",
+                "obj_clicker"
             ],
             "multiselect": true,
             "rangeEnabled": false,

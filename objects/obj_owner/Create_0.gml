@@ -3,4 +3,5 @@
 event_inherited();
 
 textBox = instance_create_layer(x, y - sprite_height/2 - 10, "TextBox", obj_textBox);
+textBox.my_creator = id;
 
