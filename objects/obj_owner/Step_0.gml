@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
+if((amount_of_items_needed == 0 && keyboard_check_pressed(vk_space)) || keyboard_check(vk_enter))
+{
+	alarm_set(0, 1);
+}
 
 stringBuidler = "I need ";
 

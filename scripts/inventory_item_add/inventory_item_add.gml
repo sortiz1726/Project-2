@@ -1,6 +1,7 @@
 /// inventory_add(item)
 /// @description adds item to inventory
 /// @param item
+/// @returns whether item was succesfully placed
 
 with(obj_inventory)
 {
@@ -9,7 +10,8 @@ with(obj_inventory)
 		if(item_array[i] == noone)
 		{
 			item_array[i] = argument0;
-			break;
+			return true;
 		}
 	}
+	return false;
 }
