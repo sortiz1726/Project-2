@@ -2,14 +2,14 @@
     "id": "34554bb2-2a04-4c16-ace2-335b0bef81f5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite16",
+    "name": "spr_Doggo1",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 59,
-    "bbox_left": 11,
-    "bbox_right": 55,
-    "bbox_top": 2,
+    "bbox_bottom": 656,
+    "bbox_left": 120,
+    "bbox_right": 611,
+    "bbox_top": 22,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -40,7 +40,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 64,
+    "height": 700,
     "layers": [
         {
             "id": "85cb9ea2-b715-4797-87c9-f8456f67f52f",
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 64,
+    "width": 700,
     "xorig": 0,
     "yorig": 0
 }

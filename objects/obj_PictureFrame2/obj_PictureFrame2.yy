@@ -1,14 +1,14 @@
 {
-    "id": "070ed8b2-0377-48fb-ade1-977151fae667",
+    "id": "d662a807-8fe7-4fb7-a00c-2dfbad3d9dce",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_BedRoom",
+    "name": "obj_PictureFrame2",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "b257b482-5d51-4759-a6d1-cb3ba556ed38",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a1c69709-b92f-41e6-8c84-0bb824edd8fe",
+    "spriteId": "6bc86f5e-96b4-4682-91e5-c1f3b2a3c2d4",
     "visible": true
 }

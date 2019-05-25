@@ -258,7 +258,7 @@
             "Key": "34554bb2-2a04-4c16-ace2-335b0bef81f5",
             "Value": {
                 "id": "2391f6ef-381d-4afe-98e9-4341f20effd1",
-                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourcePath": "sprites\\spr_Doggo1\\spr_Doggo1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -388,6 +388,14 @@
                 "id": "306b3c97-ccf7-438b-b024-6dba2a83a1b5",
                 "resourcePath": "views\\68c3835e-7524-450d-ab7e-3eb377e2b040.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6bc86f5e-96b4-4682-91e5-c1f3b2a3c2d4",
+            "Value": {
+                "id": "26d277eb-2a78-4656-8e26-bbf72d281eda",
+                "resourcePath": "sprites\\spr_Doggo2\\spr_Doggo2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -703,6 +711,14 @@
             }
         },
         {
+            "Key": "c9f02642-7f9e-4cdb-9148-d329a2922060",
+            "Value": {
+                "id": "f05ba063-4c09-49d5-91a2-830b186455e1",
+                "resourcePath": "sprites\\what\\what.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca31fbcd-a9bd-4af0-bee2-f76a8861091b",
             "Value": {
                 "id": "157331aa-d34e-4f65-ba60-b30546574b5b",
@@ -783,6 +799,14 @@
             }
         },
         {
+            "Key": "d662a807-8fe7-4fb7-a00c-2dfbad3d9dce",
+            "Value": {
+                "id": "db49d533-9029-497f-b6e2-b64f45b4a69f",
+                "resourcePath": "objects\\obj_PictureFrame2\\obj_PictureFrame2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6864517-43cc-47ef-9a98-5235266db9b9",
             "Value": {
                 "id": "1c6f42d6-1130-4d3b-b056-37a1f669a233",
@@ -827,6 +851,14 @@
             "Value": {
                 "id": "d4695b2c-66aa-49a3-8e83-5995b42d07c9",
                 "resourcePath": "sprites\\spr_owner\\spr_owner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dff42d45-b4b6-45a1-aa46-85a90241a4e3",
+            "Value": {
+                "id": "20c46d49-f526-47ed-9b71-57d7d5a868c6",
+                "resourcePath": "sprites\\bruh\\bruh.yy",
                 "resourceType": "GMSprite"
             }
         },
