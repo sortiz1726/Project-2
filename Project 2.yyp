@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2e2c6578-b502-4917-aa27-217aed1c9e04",
+            "Value": {
+                "id": "51faef8c-64b6-46ae-9d24-f306e311b640",
+                "resourcePath": "sprites\\spr_LivingRoom\\spr_LivingRoom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f9402bd-7082-4c0b-904b-d0f2d23a1437",
             "Value": {
                 "id": "0ad227f3-5dc5-4348-a45d-f32eb5b50c5a",
