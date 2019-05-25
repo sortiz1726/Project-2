@@ -58,14 +58,14 @@ move_object(hsp, vsp, Obj_Static);
 		var x_center = x - sprite_xoffset + sprite_width/2;
 		var y_center = y - sprite_yoffset + sprite_height/2;
 
-		if(key_select)
+		
+		var puzzle_reciever = collision_circle(x_center, y_center, radius, Obj_Puzzle_reciever, false, true);
+		if(puzzle_reciever != noone)
 		{
-			var puzzle_reciever = collision_circle(x_center, y_center, radius, Obj_Puzzle_reciever, false, true);
-			if(puzzle_reciever != noone)
-			{
-				puzzle_item_needed(obj_inventory.current_item, puzzle_reciever);
-			}
+			puzzle_reciever.textBox.appear = true;
+			if(key_select) puzzle_item_needed(obj_inventory.current_item, puzzle_reciever);
 		}
+		
 	#endregion
 	
 #endregion
@@ -73,5 +73,7 @@ move_object(hsp, vsp, Obj_Static);
 
 #region animation state
 	if(key_crouch && onGround()) sprite_index = spr_player_crouch;
-	if((sprite_index == spr_player_crouch && !key_crouch && !ceilingAbove()) || key_jump) sprite_index = spr_player;
+	
+	if(((sprite_index == spr_player_crouch && !key_crouch) || key_jump) && !ceilingAbove()) sprite_index = spr_player;
+
 #endregion

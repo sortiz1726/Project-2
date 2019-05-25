@@ -30,7 +30,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 1,
             "eventtype": 3,
             "m_owner": "14f467d0-36d3-40c5-963a-121c68ffc3de"
         }
@@ -76,9 +76,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "250",
+            "value": "300",
             "varName": "range_before_it_appears",
             "varType": 0
+        },
+        {
+            "id": "b2f9fd7f-bfa4-43b2-af61-0c0806ed3522",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "debug_draw_circle",
+            "varType": 3
         }
     ],
     "solid": false,
