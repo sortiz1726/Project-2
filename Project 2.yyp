@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "80ffaab8-cbe4-4515-a7ac-4b4a772b4d6b",
+            "Value": {
+                "id": "802514eb-3bf4-444c-bacf-2f6a860014bc",
+                "resourcePath": "objects\\obj_LivingRoom\\obj_LivingRoom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82f6f938-271b-42e9-9038-73635ad6e18f",
             "Value": {
                 "id": "58347664-3e20-4a4d-9b85-8c36b5178e94",
