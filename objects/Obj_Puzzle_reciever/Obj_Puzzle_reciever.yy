@@ -87,7 +87,8 @@
                 "obj_item_example",
                 "obj_lemonade",
                 "obj_laxatives",
-                "obj_clicker"
+                "obj_clicker",
+                "obj_lemonade_with_lax"
             ],
             "multiselect": true,
             "rangeEnabled": false,

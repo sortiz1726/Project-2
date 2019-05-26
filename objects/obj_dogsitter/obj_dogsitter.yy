@@ -51,7 +51,7 @@
             "mvc": "1.0",
             "objectId": "b6995cc9-3da8-4c8c-bf73-9d740b61795e",
             "propertyId": "c3dda738-927f-480a-9016-1bf3cd906951",
-            "value": "obj_lemonade, obj_laxatives"
+            "value": "obj_lemonade_with_lax"
         },
         {
             "id": "1f50a1c8-b1a9-4567-a134-6e2c550abc13",

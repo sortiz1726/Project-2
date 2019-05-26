@@ -1,4 +1,4 @@
-/// inventory_add(item)
+/// inventory_item_add(item)
 /// @description adds item to inventory
 /// @param item
 /// @returns whether item was succesfully placed

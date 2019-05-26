@@ -1,8 +1,8 @@
 {
-    "id": "beaf3d64-1a66-45a3-8381-f134bfecaa6d",
+    "id": "cb90490f-b30c-43e4-9ba6-a8fcd240d9fa",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "inventory_item_give",
+    "name": "inventory_item_combine",
     "IsCompatibility": false,
     "IsDnD": false
 }

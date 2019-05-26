@@ -15,7 +15,7 @@ for(var i = 0; i < length; i++)
 	{
 		object_reciever.items_needed[i] = noone;
 		object_reciever.amount_of_items_needed -= 1;
-		inventory_item_give();
+		inventory_item_delete(obj_inventory.current_slot);
 		object_reciever.accepted = true;
 		object_reciever.decline = false;
 		return true;

@@ -39,7 +39,7 @@
     "overriddenProperties": [
         
     ],
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b6995cc9-3da8-4c8c-bf73-9d740b61795e",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
