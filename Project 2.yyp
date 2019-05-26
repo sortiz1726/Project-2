@@ -634,7 +634,7 @@
             "Key": "b33da18d-66ac-4247-8980-b004e278905e",
             "Value": {
                 "id": "ba8995fb-c2f2-45f0-874c-e52a083e4386",
-                "resourcePath": "sprites\\sprite32\\sprite32.yy",
+                "resourcePath": "sprites\\spr_dogsitter\\spr_dogsitter.yy",
                 "resourceType": "GMSprite"
             }
         },

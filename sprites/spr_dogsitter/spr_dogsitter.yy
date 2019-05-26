@@ -2,7 +2,7 @@
     "id": "b33da18d-66ac-4247-8980-b004e278905e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite32",
+    "name": "spr_dogsitter",
     "For3D": false,
     "HTile": false,
     "VTile": false,
