@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "65d7ebc4-4856-4c2f-b599-e00846833acf",
+            "Value": {
+                "id": "f65983f9-6c48-4628-b922-c2cdaa328307",
+                "resourcePath": "sprites\\spr_doggydoorTutorial\\spr_doggydoorTutorial.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68c3835e-7524-450d-ab7e-3eb377e2b040",
             "Value": {
                 "id": "306b3c97-ccf7-438b-b024-6dba2a83a1b5",
@@ -611,6 +619,14 @@
             "Value": {
                 "id": "709487cd-3a67-49d5-b3d3-3b9cba987229",
                 "resourcePath": "objects\\obj_inventory\\obj_inventory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b415de2a-2a80-452e-99a1-e2976b1a8c95",
+            "Value": {
+                "id": "82172ea1-be88-4c9d-8876-b509ef2c8769",
+                "resourcePath": "objects\\object32\\object32.yy",
                 "resourceType": "GMObject"
             }
         },
