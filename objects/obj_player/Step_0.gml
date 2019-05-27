@@ -22,6 +22,8 @@
 	#region calculates horiztonal movement
 		// determines which horizontal direction to move in.
 		var move = key_right - key_left;
+		
+		image_speed = abs(move) * 2
 		// determines which direction sprite is facing
 		if(move != 0) image_xscale = sign(move);
 		// ground and air horizontal movement
@@ -72,8 +74,8 @@ move_object(hsp, vsp, Obj_Static);
 
 
 #region animation state
-	if(key_crouch && onGround()) sprite_index = spr_player_crouch;
+	if(key_crouch && onGround()) sprite_index = spr_Doggo_crouch;
 	
-	if(((sprite_index == spr_player_crouch && !key_crouch) || key_jump) && !ceilingAbove()) sprite_index = spr_player;
+	if(((sprite_index == spr_Doggo_crouch && !key_crouch) || key_jump) && !ceilingAbove()) sprite_index = spr_Doggo;
 
 #endregion

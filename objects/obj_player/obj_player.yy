@@ -90,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "25",
             "varName": "jump",
             "varType": 0
         },
@@ -107,9 +107,23 @@
             "value": "200",
             "varName": "radius",
             "varType": 0
+        },
+        {
+            "id": "eafd3373-17bb-4517-ba69-e7748f4b551f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "debug_draw_circle",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "05aa37db-2e5a-45e1-a4de-69741ee76acd",
+    "spriteId": "5cafbeb4-4848-47ec-8197-b7a0928767d5",
     "visible": true
 }
