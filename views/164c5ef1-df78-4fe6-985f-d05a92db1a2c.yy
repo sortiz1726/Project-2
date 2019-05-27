@@ -5,7 +5,10 @@
     "name": "164c5ef1-df78-4fe6-985f-d05a92db1a2c",
     "children": [
         "05aa37db-2e5a-45e1-a4de-69741ee76acd",
-        "53d2f268-5e86-4d30-9a47-1fc36966abab"
+        "53d2f268-5e86-4d30-9a47-1fc36966abab",
+        "5cafbeb4-4848-47ec-8197-b7a0928767d5",
+        "bb60efae-1710-4ef8-b613-29cedd99aa07",
+        "25062aee-8781-4f0f-983f-620837ae11d3"
     ],
     "filterType": "GMSprite",
     "folderName": "Player Sprites",

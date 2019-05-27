@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "25062aee-8781-4f0f-983f-620837ae11d3",
+            "Value": {
+                "id": "90f88944-a9e0-4624-b864-bd9c91252dc8",
+                "resourcePath": "sprites\\spr_Doggo_crouch\\spr_Doggo_crouch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2588e2a4-e541-410c-a791-2869d3f8ba26",
             "Value": {
                 "id": "2763ef56-5da4-40a9-8a04-5e1d82b6b192",
@@ -372,6 +380,14 @@
                 "id": "46601945-3ec6-45dc-9daf-b431f3030e0b",
                 "resourcePath": "views\\56490ae2-1983-49fd-acbc-84b12a60ac6f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5cafbeb4-4848-47ec-8197-b7a0928767d5",
+            "Value": {
+                "id": "bca1ee9f-fe10-4394-8dc8-4c8f659664e5",
+                "resourcePath": "sprites\\spr_Doggo\\spr_Doggo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -700,6 +716,14 @@
                 "id": "7dcb2678-f2ef-47a7-953a-802351d73e03",
                 "resourcePath": "rooms\\ROOM_TEMPLATE\\ROOM_TEMPLATE.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bb60efae-1710-4ef8-b613-29cedd99aa07",
+            "Value": {
+                "id": "906f293a-e719-4c5b-8560-fe9d708ec30b",
+                "resourcePath": "sprites\\spr_Doggo_left\\spr_Doggo_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
