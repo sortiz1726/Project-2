@@ -88,7 +88,9 @@
                 "obj_lemonade",
                 "obj_laxatives",
                 "obj_clicker",
-                "obj_lemonade_with_lax"
+                "obj_lemonade_with_lax",
+                "obj_wallet",
+                "obj_glasses"
             ],
             "multiselect": true,
             "rangeEnabled": false,
