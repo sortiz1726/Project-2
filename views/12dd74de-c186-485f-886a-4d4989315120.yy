@@ -6,7 +6,11 @@
     "children": [
         "c749098b-4430-494a-8c5d-141c72f71286",
         "2e2c6578-b502-4917-aa27-217aed1c9e04",
-        "a1c69709-b92f-41e6-8c84-0bb824edd8fe"
+        "a1c69709-b92f-41e6-8c84-0bb824edd8fe",
+        "03a045c0-2b6a-44fd-93c7-4d63710b4c8a",
+        "c3b0559b-fce9-4978-8ecc-7869981857ab",
+        "b4662c17-eb3a-4143-a9eb-c9a9cc5831f1",
+        "0daa5274-558a-41b4-9cb6-4f840b50a8dd"
     ],
     "filterType": "GMSprite",
     "folderName": "Background sprites",
