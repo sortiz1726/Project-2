@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0daa5274-558a-41b4-9cb6-4f840b50a8dd",
+            "Value": {
+                "id": "2d7136f3-4a1f-470d-8c31-0967201e921c",
+                "resourcePath": "sprites\\spr_Oldman_BedRoom2\\spr_Oldman_BedRoom2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f4c0966-a219-40e1-b053-94299dddab13",
             "Value": {
                 "id": "ece2e7ba-f28d-4e40-998a-52ad3808fb21",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "64de6dc0-4bfa-4f67-ab70-7209ad4b0018",
+            "Value": {
+                "id": "01b22ecd-2316-447a-9a31-c68e0751ec3a",
+                "resourcePath": "objects\\obj_Desk\\obj_Desk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65d7ebc4-4856-4c2f-b599-e00846833acf",
             "Value": {
                 "id": "f65983f9-6c48-4628-b922-c2cdaa328307",
@@ -879,6 +895,14 @@
             }
         },
         {
+            "Key": "b4662c17-eb3a-4143-a9eb-c9a9cc5831f1",
+            "Value": {
+                "id": "d0144a56-67b5-4c2f-a9ee-e8cb2dade29d",
+                "resourcePath": "sprites\\spr_Oldman_LivingRoom\\spr_Oldman_LivingRoom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b5cd82a8-ce5c-4c8a-b2b8-c4428e98db58",
             "Value": {
                 "id": "788d989a-f1d0-4cdc-a220-d7ec65eedecc",
@@ -970,7 +994,7 @@
             "Key": "c3b0559b-fce9-4978-8ecc-7869981857ab",
             "Value": {
                 "id": "f02900cd-baa1-4043-b3e4-bc13c41f1bb0",
-                "resourcePath": "sprites\\sprite52\\sprite52.yy",
+                "resourcePath": "sprites\\spr_Outside\\spr_Outside.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1244,6 +1268,14 @@
                 "id": "886e1ff7-58f4-4498-aa5a-d0dc31dc581f",
                 "resourcePath": "views\\ece747f3-d591-4e7d-9dca-9e3779cfa6e3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ecfbe6aa-89bf-4619-9d95-ff47aa71d52e",
+            "Value": {
+                "id": "848afff5-33e0-49cb-ae37-2ece6db0130b",
+                "resourcePath": "sprites\\spr_Desk\\spr_Desk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
