@@ -15,7 +15,15 @@
         "d6864517-43cc-47ef-9a98-5235266db9b9",
         "25a85b54-ce76-446d-beef-275acdd742de",
         "c9f02642-7f9e-4cdb-9148-d329a2922060",
-        "dff42d45-b4b6-45a1-aa46-85a90241a4e3"
+        "dff42d45-b4b6-45a1-aa46-85a90241a4e3",
+        "f680bad0-de5f-4e35-b604-a04eeb487fb5",
+        "c7d0976c-dce5-472e-99b5-affa85bda666",
+        "8b25c96c-17dd-4d5f-be3b-6b1847d77250",
+        "efbe2a42-156f-45c1-80cf-4959235053c4",
+        "99061762-7f55-4cea-ac4d-0541f58e3d9a",
+        "dbd2215e-a7c6-4663-aee1-5f03498fd5b2",
+        "1c23dff4-7d91-4e42-acee-0c173d8d6833",
+        "210addc6-6b46-4d0e-9c77-4bcbd3b7c7ef"
     ],
     "filterType": "GMSprite",
     "folderName": "Platform Sprites",

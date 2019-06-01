@@ -1,4 +1,4 @@
-/// @description when puzzle is complete, whatever puzzle_complete_action has determins what happens next
+spr_/// @description when puzzle is complete, whatever puzzle_complete_action has determins what happens next
 
 #region puzzle complete coding
 if(activate && amount_of_items_needed == 0)
