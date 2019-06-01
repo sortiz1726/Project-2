@@ -1,38 +1,9 @@
-spr_/// @description when puzzle is complete, whatever puzzle_complete_action has determins what happens next
+/// @description when puzzle is complete, whatever puzzle_complete_action has determins what happens next
 
 #region puzzle complete coding
 if(activate && amount_of_items_needed == 0)
 {
-	if(puzzle_complete_action != "")
-	{
-		show_debug_message(puzzle_complete_action);
-		var asset_type = asset_get_type(puzzle_complete_action);
-		//checks if asset exist in resource tree
-		if(asset_type != asset_unknown)
-		{
-			var asset_index = asset_get_index(puzzle_complete_action)
-			//checks if asset is an object
-			if(asset_type == asset_object)
-			{
-				//checks if asset is an Item type
-				if(object_get_parent(asset_index) == Obj_Item)
-				{
-					//adds item to inventory
-					inventory_item_add(asset_index);
-					puzzle_complete_action = "";
-				}
-			}
-			//checks of asset is a room
-			if(asset_type == asset_room)
-			{
-				room_index = asset_index
-				alarm_set(0, timer_for_room_transition * room_speed);
-				//goes to the room	
-				
-			}
-		}
-	}
-	activate = false;
+	alarm_set(2, room_speed);
 }
 
 
