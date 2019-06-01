@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "533a9545-d528-43f2-aefc-5e34a06304b6",
+            "Value": {
+                "id": "152accef-0e4a-41e2-b7df-09a06445d163",
+                "resourcePath": "sprites\\spr_Oldman_BedRoom3\\spr_Oldman_BedRoom3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "53d2f268-5e86-4d30-9a47-1fc36966abab",
             "Value": {
                 "id": "e1b4a522-99f7-4946-af22-8f6e673c1bbd",
@@ -636,6 +644,14 @@
                 "id": "6be1d6d1-67fa-4b3b-ab21-8dc42d9c9073",
                 "resourcePath": "views\\8491517b-467f-4879-a63c-359ff83c4e89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "85aca4e1-24b7-43ed-8d43-bc9bb5967ed6",
+            "Value": {
+                "id": "3a97aa61-b535-464e-8b85-115c2ea0ac1e",
+                "resourcePath": "objects\\obj_nightstand\\obj_nightstand.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -972,6 +988,14 @@
                 "id": "0049ca67-5090-489c-be5d-0e14647240a4",
                 "resourcePath": "objects\\obj_dogsitter\\obj_dogsitter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bda6efc9-01cf-4b7d-9417-d026e628a203",
+            "Value": {
+                "id": "03d09d6a-0864-4d5b-a2fd-a47e50477847",
+                "resourcePath": "sprites\\spr_nightstand\\spr_nightstand.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
