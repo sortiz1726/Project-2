@@ -16,7 +16,9 @@
         "54a19a22-b2e0-4183-a056-4b3be4925b7f",
         "1951b606-f50b-4abb-9157-cb112e9d1892",
         "0b68c91d-f1bc-4c1c-a211-ff137887d05e",
-        "64de6dc0-4bfa-4f67-ab70-7209ad4b0018"
+        "64de6dc0-4bfa-4f67-ab70-7209ad4b0018",
+        "85aca4e1-24b7-43ed-8d43-bc9bb5967ed6",
+        "2b32d889-975a-456d-bd9b-9133a146c5ed"
     ],
     "filterType": "GMObject",
     "folderName": "Environemt Objects",
