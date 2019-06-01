@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "bf90b7d9-4e09-4153-8466-435e67b03754",
+            "Value": {
+                "id": "69dcbc24-53fc-44be-9fb2-50cc18973e7b",
+                "resourcePath": "sprites\\spr_StationWagon\\spr_StationWagon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfbf3484-7694-4508-8533-379aad486e9c",
             "Value": {
                 "id": "308474ba-de7f-4699-bac4-0d9a501a2d17",
