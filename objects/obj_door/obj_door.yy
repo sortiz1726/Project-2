@@ -81,6 +81,20 @@
             "value": "0",
             "varName": "open",
             "varType": 3
+        },
+        {
+            "id": "a3b09fcb-709a-45d3-aa30-7f8fbafe8e91",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "permanent_text_box",
+            "varType": 3
         }
     ],
     "solid": false,

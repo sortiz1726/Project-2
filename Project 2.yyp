@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "060ed6e8-e0df-4a1b-8d65-e62d020faa9d",
+            "Value": {
+                "id": "1a46d606-8d98-419d-91d8-811765f70c00",
+                "resourcePath": "objects\\obj_owner1\\obj_owner1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "070ed8b2-0377-48fb-ade1-977151fae667",
             "Value": {
                 "id": "f5c5f6dd-544f-4efc-ba03-80ff2748f0de",
@@ -108,6 +116,14 @@
                 "id": "57dd9f94-4bf6-46fa-af72-01be44b58a45",
                 "resourcePath": "sprites\\spr_laxatives\\spr_laxatives.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0c9b9bb3-8a44-4520-8747-16cb3d368936",
+            "Value": {
+                "id": "bdac17a1-fbdb-44cf-8095-64cf9870d3fc",
+                "resourcePath": "rooms\\rm_cut_scene1\\rm_cut_scene1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "2cae3cb8-f0a4-4c0e-b43b-eecade5f69bc",
+            "Value": {
+                "id": "4f4e2715-367a-4ea3-95d3-e17a3823de40",
+                "resourcePath": "sprites\\spr_toliet_paper\\spr_toliet_paper.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e2c6578-b502-4917-aa27-217aed1c9e04",
             "Value": {
                 "id": "51faef8c-64b6-46ae-9d24-f306e311b640",
@@ -444,6 +468,14 @@
                 "id": "956b77c2-2083-44cd-8391-5c2c8d241988",
                 "resourcePath": "views\\4f137e12-64d0-402c-8616-09268cb1dd8a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4f346197-616c-46ec-aa41-c774e1b45f3e",
+            "Value": {
+                "id": "f494472c-ead1-40dd-80a7-560b4c82da95",
+                "resourcePath": "objects\\obj_text_maker\\obj_text_maker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -655,6 +687,14 @@
             }
         },
         {
+            "Key": "85a4485b-56d1-4f6c-be20-624e67458d0f",
+            "Value": {
+                "id": "c9927cb5-37ba-4da7-abac-b0b8a499064d",
+                "resourcePath": "sprites\\sprite61\\sprite61.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85aca4e1-24b7-43ed-8d43-bc9bb5967ed6",
             "Value": {
                 "id": "3a97aa61-b535-464e-8b85-115c2ea0ac1e",
@@ -684,6 +724,14 @@
                 "id": "4a55cd31-9d85-450c-b349-c597bef344e7",
                 "resourcePath": "objects\\obj_PictureFrame\\obj_PictureFrame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87773edc-dcbd-4d7b-ba8b-b1f064db6c84",
+            "Value": {
+                "id": "0ec6c142-effb-436e-9aec-15cf96d34d73",
+                "resourcePath": "rooms\\rm_cut_scene\\rm_cut_scene.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -771,6 +819,14 @@
             "Value": {
                 "id": "56fd65fb-9a01-45d8-971d-14b954fd9d88",
                 "resourcePath": "sprites\\spr_closet\\spr_closet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b8d69e2-38e2-450d-bb52-bebe28d5810c",
+            "Value": {
+                "id": "21e65fa1-f0be-4eb5-a79c-7995fa02850d",
+                "resourcePath": "sprites\\spr_lemonade_pitcher\\spr_lemonade_pitcher.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -943,6 +999,14 @@
             }
         },
         {
+            "Key": "b67f0d70-14c1-42e1-bcc7-d37f9e64e6be",
+            "Value": {
+                "id": "aeb1f06e-0203-4e3a-b7ec-7419a88741c8",
+                "resourcePath": "objects\\obj_dogsitter1\\obj_dogsitter1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b6995cc9-3da8-4c8c-bf73-9d740b61795e",
             "Value": {
                 "id": "2f60f2e4-17a9-4d41-81cd-e5769a04cb68",
@@ -1039,6 +1103,14 @@
             }
         },
         {
+            "Key": "c219f49c-79dd-4217-93b5-34141ed7cce1",
+            "Value": {
+                "id": "0edbec13-5611-44a4-8fb1-e25b3edccc17",
+                "resourcePath": "objects\\obj_lemonade_pitcher\\obj_lemonade_pitcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c3b0559b-fce9-4978-8ecc-7869981857ab",
             "Value": {
                 "id": "f02900cd-baa1-4043-b3e4-bc13c41f1bb0",
@@ -1068,6 +1140,14 @@
                 "id": "8f09a7d9-ba7d-4061-8ac1-c93136ecf479",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c85edc51-f8ab-4567-8dc0-4ff6cf0c0bb3",
+            "Value": {
+                "id": "1169a649-2bad-4bd8-9fc7-5d5940b6fcf2",
+                "resourcePath": "rooms\\rm_place_holder\\rm_place_holder.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1279,6 +1359,14 @@
             }
         },
         {
+            "Key": "e461f364-6eb9-4be6-aac1-5f56a569ca3e",
+            "Value": {
+                "id": "ef1d881c-05a8-437d-9110-ddfc4d89dcc2",
+                "resourcePath": "sprites\\spr_cut_scene\\spr_cut_scene.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e4908f12-2cff-4101-afe5-925d5df1dfde",
             "Value": {
                 "id": "577f5c0a-4671-45d4-8eb5-1837428bec44",
@@ -1306,7 +1394,7 @@
             "Key": "e9aacbde-9d7f-46a8-821f-d926473b3b13",
             "Value": {
                 "id": "2e1b433b-e02f-4180-914f-8955c3c92ff4",
-                "resourcePath": "objects\\obj_couch\\obj_couch.yy",
+                "resourcePath": "objects\\obj_toilet_paper\\obj_toilet_paper.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -15,3 +15,12 @@ if(!is_undefined(visted))
 		 inventory_reset();
 	}
 }
+if(room == rm_place_holder && restart_trigger)
+{
+	restart_trigger = false;
+	alarm_set(0, 4 * room_speed);
+}
+if(room == rm_cut_scene1)
+{
+	alarm_set(1, 2 * room_speed);
+}

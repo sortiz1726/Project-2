@@ -3,7 +3,7 @@ if(open) image_index = 1;
 #region repsonse builder (only if text box is being used)
 
 
-if(create_text_box)
+if(create_text_box || permanent_text_box)
 {
 	var stringBuidler;
 	

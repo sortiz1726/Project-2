@@ -7,8 +7,18 @@ object_reciever.activate = true;
 var item = argument0;
 if(item == noone) return false;
 
-var length = array_length_1d(object_reciever.items_needed);
 object_reciever.trigger_repsonse_alarm = true;
+
+if(item == obj_lemonade)
+{
+	inventory_item_delete(obj_inventory.current_slot);
+	object_reciever.accepted = true;
+	object_reciever.decline = false;
+	return false;
+}
+
+var length = array_length_1d(object_reciever.items_needed);
+
 for(var i = 0; i < length; i++)
 {
 	if(item == object_reciever.items_needed[i])

@@ -9,3 +9,5 @@ for(var i = 0; i < array_length_1d(main_levels_array); i++)
 {
 	ds_map_add(levels_visted, main_levels_array[i], false);
 }
+
+restart_trigger = true;

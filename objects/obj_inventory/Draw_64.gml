@@ -1,6 +1,7 @@
 /// @description draws inventory
 
-if(room != rm_Main_menu)
+
+if(room != rm_Main_menu && room != rm_cut_scene && room != rm_cut_scene1)
 {
 	var inventory_width = sprite_width * inventory_size
 	var draw_x = x - inventory_width/2
