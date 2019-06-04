@@ -35,7 +35,8 @@
         "d83442e1-3410-4d1b-bb21-0483c3d1519f",
         "4e122439-c829-4088-8f15-4a98e6bfc41d",
         "935430e5-3716-461a-9430-7702440cc83c",
-        "f3b0de67-e764-485c-a93c-8ef9746555d6"
+        "f3b0de67-e764-485c-a93c-8ef9746555d6",
+        "87d3450a-6917-4aff-9db7-e0c863cab4ad"
     ],
     "IsDnD": false,
     "layers": [
@@ -53,7 +54,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3D020B56","id": "f3b0de67-e764-485c-a93c-8ef9746555d6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D020B56","objId": "14f467d0-36d3-40c5-963a-121c68ffc3de","properties": [{"id": "bd34137e-f048-4677-b6fc-dc8e2f6e5a05","modelName": "GMOverriddenProperty","objectId": "14f467d0-36d3-40c5-963a-121c68ffc3de","propertyId": "e96a706c-0a6a-45e9-9083-158d9045ab31","mvc": "1.0","value": "Hmm, I wonder if he left someting here..."}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 992,"y": 640}
+{"name": "inst_3D020B56","id": "f3b0de67-e764-485c-a93c-8ef9746555d6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D020B56","objId": "14f467d0-36d3-40c5-963a-121c68ffc3de","properties": [{"id": "bd34137e-f048-4677-b6fc-dc8e2f6e5a05","modelName": "GMOverriddenProperty","objectId": "14f467d0-36d3-40c5-963a-121c68ffc3de","propertyId": "e96a706c-0a6a-45e9-9083-158d9045ab31","mvc": "1.0","value": "Hmm, I wonder if he left someting here..."}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 992,"y": 640},
+{"name": "inst_54CECF9D","id": "87d3450a-6917-4aff-9db7-e0c863cab4ad","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_54CECF9D","objId": "14f467d0-36d3-40c5-963a-121c68ffc3de","properties": [{"id": "35a86b3c-b562-49cc-a38b-94ec368e0112","modelName": "GMOverriddenProperty","objectId": "14f467d0-36d3-40c5-963a-121c68ffc3de","propertyId": "e96a706c-0a6a-45e9-9083-158d9045ab31","mvc": "1.0","value": "this old man sure has a lot of toilet paper around..OH HEY I FOUND HIS GLASSES."}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 1600,"y": 544}
             ],
             "layers": [
 

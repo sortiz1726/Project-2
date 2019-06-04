@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "41bd9977-98dd-4ccf-88fa-c650f6aebadc",
+            "Value": {
+                "id": "b76d88f3-a4c5-4d65-a11c-fd7621d1534a",
+                "resourcePath": "rooms\\rm_dog_napper_house\\rm_dog_napper_house.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4591c61b-b965-4b06-b533-a550f0923ddf",
             "Value": {
                 "id": "da3462d1-aadb-4702-83ce-19a84dacee47",
@@ -1263,6 +1271,14 @@
             }
         },
         {
+            "Key": "d5f11632-2a47-416b-9500-4dc7b98e048b",
+            "Value": {
+                "id": "210ffbf6-b590-425d-9e12-bfbe20e2f4cd",
+                "resourcePath": "rooms\\rm_farm_area\\rm_farm_area.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d6200518-f491-4b59-8a46-fe61d324bba5",
             "Value": {
                 "id": "a2836d4a-e35a-4a35-8ae6-b4670a514887",
@@ -1316,6 +1332,14 @@
                 "id": "62a7ad9c-7c28-4c0c-924f-d7bdc1f2bb3a",
                 "resourcePath": "sprites\\spr_table\\spr_table.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db91b88f-0f0a-48be-bc69-519aa0e7fcc9",
+            "Value": {
+                "id": "782d2566-3ab4-479c-88a2-6539f8b3fb21",
+                "resourcePath": "views\\db91b88f-0f0a-48be-bc69-519aa0e7fcc9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
