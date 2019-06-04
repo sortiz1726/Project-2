@@ -1,16 +1,14 @@
 {
     "id": "924356b4-ca22-4878-9c18-93d2df6cc401",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "fnt_text",
     "AntiAlias": 1,
     "TTFName": "",
-    "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Arial",
-    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1438,9 +1436,8 @@
             }
         }
     ],
-    "hinting": 0,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         {
@@ -2149,8 +2146,6 @@
         }
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,

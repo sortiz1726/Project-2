@@ -6,13 +6,13 @@ var player = collision_circle(center_x, center_y, range_before_it_appears, obj_p
 
 
 
-	if(player != noone)
-	{
-		appear = true;
-	}
-	else 
-	{
-		appear = false;
-	}
+if(player != noone)
+{
+	appear = true;
+}
+else 
+{
+	appear = false;
+}
 
 

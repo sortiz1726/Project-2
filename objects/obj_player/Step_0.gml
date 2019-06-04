@@ -7,6 +7,7 @@
 		key_right = keyboard_check(ord("D"));
 		key_jump = keyboard_check_pressed(ord("W"));
 		key_crouch = keyboard_check(ord("S"));
+		key_dash = (keyboard_check(vk_lshift) || keyboard_check(vk_rshift));
 	#endregion
 
 	#region inventory input
@@ -29,6 +30,8 @@
 		// ground and air horizontal movement
 		if(onGround()) hsp = move * walkspd;
 		else hsp = clamp(hsp + move * 2, -walkspd, walkspd);
+		
+		if(key_dash) hsp *= run_multiplier;
 	#endregion
 	
 	#region calculates vertical movement
