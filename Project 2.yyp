@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "9ab7a475-c057-49ed-a7e0-ed82c050eb21",
+            "Value": {
+                "id": "ca9b1a23-2f87-4638-acdd-f732db0d356e",
+                "resourcePath": "sprites\\spr_hammer\\spr_hammer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b8d69e2-38e2-450d-bb52-bebe28d5810c",
             "Value": {
                 "id": "21e65fa1-f0be-4eb5-a79c-7995fa02850d",
