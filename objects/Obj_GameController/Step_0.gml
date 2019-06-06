@@ -10,3 +10,7 @@ if(keyboard_check_pressed(ord("0")))
 {
 	room_goto(rm_cut_scene);
 }
+if(keyboard_check_pressed(ord("3")))
+{
+	room_goto(rm_farm_area);
+}

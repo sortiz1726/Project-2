@@ -25,7 +25,8 @@ if(activate && amount_of_items_needed == 0)
 			if(asset_type == asset_room)
 			{
 				room_index = asset_index
-				alarm_set(0, timer_for_room_transition * room_speed);
+				if(timer_for_room_transition == 0) room_goto(room_index);
+				else alarm_set(0, timer_for_room_transition * room_speed);
 				//goes to the room	
 				
 			}

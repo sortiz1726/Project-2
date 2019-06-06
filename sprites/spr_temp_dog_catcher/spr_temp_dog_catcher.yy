@@ -2,7 +2,7 @@
     "id": "df1a1faa-3e8c-4601-b4c9-ebde2cf467fd",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_old_man",
+    "name": "spr_temp_dog_catcher",
     "For3D": false,
     "HTile": false,
     "VTile": false,

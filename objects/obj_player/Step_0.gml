@@ -23,6 +23,7 @@
 	#region calculates horiztonal movement
 		// determines which horizontal direction to move in.
 		var move = key_right - key_left;
+		if(freeze) move = 0;
 		
 		image_speed = abs(move) * 2
 		// determines which direction sprite is facing
@@ -36,7 +37,7 @@
 	
 	#region calculates vertical movement
 		vsp += grv;
-		if(onGround() && (key_jump)) vsp = -jump;	
+		if(onGround() && (key_jump) && !freeze) vsp = -jump;	
 	#endregion
 
 #endregion

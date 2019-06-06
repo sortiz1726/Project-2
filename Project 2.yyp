@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "07d58e00-e164-4bf3-a89e-2e89cf5fca5c",
+            "Value": {
+                "id": "16a13b73-0fad-46b5-b80b-f0e2fecc2f67",
+                "resourcePath": "objects\\obj_dog_catcher\\obj_dog_catcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "090cf6bd-5e07-4ed8-ad7b-41406fe98316",
             "Value": {
                 "id": "8a906f28-46f7-486d-be96-8e311bf623e1",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "1e1c924f-5853-4814-a0a5-48694d9c96a6",
+            "Value": {
+                "id": "f3ed6600-e522-48a6-b200-28f2897bac89",
+                "resourcePath": "rooms\\rm_basement\\rm_basement.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "210addc6-6b46-4d0e-9c77-4bcbd3b7c7ef",
             "Value": {
                 "id": "40aaa759-7817-441f-95e5-0efcafe7ff2f",
@@ -372,6 +388,14 @@
                 "id": "4f4e2715-367a-4ea3-95d3-e17a3823de40",
                 "resourcePath": "sprites\\spr_toliet_paper\\spr_toliet_paper.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2cf21e28-ca78-4638-b8a7-f7de056eb263",
+            "Value": {
+                "id": "499d3ca7-8aeb-4b38-9283-534f83db176c",
+                "resourcePath": "objects\\obj_text_maker2\\obj_text_maker2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1362,7 +1386,7 @@
             "Key": "df1a1faa-3e8c-4601-b4c9-ebde2cf467fd",
             "Value": {
                 "id": "d4695b2c-66aa-49a3-8e83-5995b42d07c9",
-                "resourcePath": "sprites\\spr_old_man\\spr_old_man.yy",
+                "resourcePath": "sprites\\spr_temp_dog_catcher\\spr_temp_dog_catcher.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1460,6 +1484,14 @@
                 "id": "4ba58feb-0e6d-4534-9225-cac9ff5538db",
                 "resourcePath": "objects\\Obj_Item\\Obj_Item.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee2b63a8-05d7-4d9e-bef9-303ff9441895",
+            "Value": {
+                "id": "c45a52d6-26fc-495d-a9f6-bde9011d4dcb",
+                "resourcePath": "rooms\\rm_room\\rm_room.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
