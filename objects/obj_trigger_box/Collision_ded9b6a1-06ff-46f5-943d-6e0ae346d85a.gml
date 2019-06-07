@@ -1,0 +1,1 @@
+room_goto(rm_studio_cut_scene_end_game);

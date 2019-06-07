@@ -3,6 +3,12 @@ var center_x = x - sprite_xoffset + sprite_width/2;
 var center_y = y - sprite_yoffset + sprite_height/2;
 draw_set_color(c_white);
 if(debug_draw_circle) draw_circle(center_x , center_y, range_before_it_appears, true);
+
+if(disappear)
+{
+	appear = false;
+}
+
 if(appear)
 {
 	//draw box

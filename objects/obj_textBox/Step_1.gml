@@ -15,4 +15,10 @@ else
 	appear = false;
 }
 
+if(stay)
+{
+	appear = true;
+}
+
+
 

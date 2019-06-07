@@ -93,6 +93,34 @@
             "value": "0",
             "varName": "debug_draw_circle",
             "varType": 3
+        },
+        {
+            "id": "54c62d55-383b-4895-bd28-a2d93e658b79",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "stay",
+            "varType": 3
+        },
+        {
+            "id": "081ee4db-e1f5-41c1-a9a5-b40470c5c9cf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "disappear",
+            "varType": 3
         }
     ],
     "solid": false,

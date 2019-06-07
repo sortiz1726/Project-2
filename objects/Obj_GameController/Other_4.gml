@@ -24,3 +24,7 @@ if(room == rm_cut_scene1)
 {
 	alarm_set(1, 2 * room_speed);
 }
+if(room == rm_cut_scene2)
+{
+	alarm_set(2, 2 * room_speed);
+}

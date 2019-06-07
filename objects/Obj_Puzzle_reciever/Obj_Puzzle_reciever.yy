@@ -90,7 +90,8 @@
                 "obj_clicker",
                 "obj_lemonade_with_lax",
                 "obj_wallet",
-                "obj_glasses"
+                "obj_glasses",
+                "obj_hammer"
             ],
             "multiselect": true,
             "rangeEnabled": false,

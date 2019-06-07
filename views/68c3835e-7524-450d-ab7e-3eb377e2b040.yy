@@ -23,7 +23,8 @@
         "99061762-7f55-4cea-ac4d-0541f58e3d9a",
         "dbd2215e-a7c6-4663-aee1-5f03498fd5b2",
         "1c23dff4-7d91-4e42-acee-0c173d8d6833",
-        "210addc6-6b46-4d0e-9c77-4bcbd3b7c7ef"
+        "210addc6-6b46-4d0e-9c77-4bcbd3b7c7ef",
+        "f7ef3d57-65ee-4547-b79b-9cc12475ffb3"
     ],
     "filterType": "GMSprite",
     "folderName": "Platform Sprites",
