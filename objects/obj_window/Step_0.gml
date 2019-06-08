@@ -28,6 +28,7 @@ if(activate && amount_of_items_needed == 0)
 			if(asset_type == asset_room)
 			{
 				image_index = 1;
+				audio_play_sound(snd_window_break, 4, false);
 				alarm_set(0, room_speed * 2);
 			}
 		}

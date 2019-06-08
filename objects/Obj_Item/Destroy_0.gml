@@ -1,0 +1,1 @@
+audio_play_sound(snd_item_pick_up, 1, false);

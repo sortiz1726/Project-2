@@ -25,6 +25,15 @@
 		var move = key_right - key_left;
 		if(freeze) move = 0;
 		
+		if(move != 0 && onGround())
+		{
+			if(!audio_is_playing(snd_walking)) audio_play_sound(snd_walking, 6, false);
+		}
+		else
+		{
+			audio_stop_sound(snd_walking);
+		}
+		
 		image_speed = abs(move) * 2
 		// determines which direction sprite is facing
 		if(move != 0) image_xscale = sign(move);
@@ -37,7 +46,11 @@
 	
 	#region calculates vertical movement
 		vsp += grv;
-		if(onGround() && (key_jump) && !freeze) vsp = -jump;	
+		if(onGround() && (key_jump) && !freeze)
+		{
+			audio_play_sound(snd_jump, 3, false);
+			vsp = -jump;	
+		}
 	#endregion
 
 #endregion
@@ -68,8 +81,13 @@ move_object(hsp, vsp, Obj_Static);
 		var puzzle_reciever = collision_circle(x_center, y_center, radius, Obj_Puzzle_reciever, false, true);
 		if(puzzle_reciever != noone)
 		{
+			
 			puzzle_reciever.textBox.appear = true;
-			if(key_select) puzzle_item_needed(obj_inventory.current_item, puzzle_reciever);
+			if(key_select)
+			{
+				audio_play_sound(snd_woof, 0 , false);
+				puzzle_item_needed(obj_inventory.current_item, puzzle_reciever);
+			}
 		}
 		
 	#endregion

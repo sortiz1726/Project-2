@@ -26,5 +26,19 @@ if(room == rm_cut_scene1)
 }
 if(room == rm_cut_scene2)
 {
-	alarm_set(2, 2 * room_speed);
+	alarm_set(2, 4 * room_speed);
+	audio_play_sound(snd_car, 1, false);
+}
+else
+{
+	audio_stop_sound(snd_car);
+}
+
+if(room == rm_outside)
+{
+	audio_play_sound(snd_outside, 7, true)
+}
+else
+{
+	audio_stop_sound(snd_outside);
 }
