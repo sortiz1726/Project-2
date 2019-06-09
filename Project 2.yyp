@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00b76f8a-2a2d-4a45-a923-db217fb3af27",
+            "Value": {
+                "id": "d022e567-4645-4366-9646-2b72f5fb7f81",
+                "resourcePath": "sounds\\snd_deny\\snd_deny.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0215b27a-299f-4f6a-8d7f-7e3b695db42b",
             "Value": {
                 "id": "51d11142-756f-40d7-8f6d-fb25291d0333",

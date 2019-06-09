@@ -1,0 +1,1 @@
+audio_play_sound(snd_car, 1, false);

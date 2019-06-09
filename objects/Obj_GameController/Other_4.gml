@@ -42,3 +42,15 @@ else
 {
 	audio_stop_sound(snd_outside);
 }
+if(room == rm_studio_cut_scene_end_game)
+{
+	audio_stop_sound(snd_walking);
+}
+
+if(room == rm_studio_cut_scene_end_game)
+{
+	alarm_set(3, 7 * room_speed);
+	alarm_set(4, 9 * room_speed);
+	alarm_set(5, 21 * room_speed);
+	
+}

@@ -33,4 +33,5 @@ for(var i = 0; i < length; i++)
 }
 object_reciever.declined = true;
 object_reciever.accepted = false;
+audio_play_sound(snd_deny, 8, false);
 return false;
