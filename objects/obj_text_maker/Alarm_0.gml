@@ -4,6 +4,8 @@ if(i < array_length_1d(dialouge) - 1)
 	alarm_set(0, 3 * room_speed)
 	i++;
 	textBox.dialouge = dialouge[i];
+	if(sound[i] == owner) textBox.x = 1300;
+	else textBox.x = 640;
 	audio_play_sound(sound[i], 2, false);
 }
 else

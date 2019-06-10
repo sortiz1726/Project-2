@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "85236323-b338-43d6-9e06-1a53d443862c",
+            "Value": {
+                "id": "97d2ce14-a058-4dab-97ae-32a2fa21bdc0",
+                "resourcePath": "rooms\\rm_ending\\rm_ending.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "85a4485b-56d1-4f6c-be20-624e67458d0f",
             "Value": {
                 "id": "c9927cb5-37ba-4da7-abac-b0b8a499064d",
@@ -1159,6 +1167,14 @@
             }
         },
         {
+            "Key": "a8fecb20-df03-4064-adb9-0e6068a24d18",
+            "Value": {
+                "id": "abc89505-d2a5-40b6-a4c1-a71190ff6e0d",
+                "resourcePath": "sounds\\snd_dog_napper_house\\snd_dog_napper_house.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "860dd4e7-9177-4093-b0f3-a7dae99c4890",
@@ -1268,6 +1284,14 @@
                 "id": "d0144a56-67b5-4c2f-a9ee-e8cb2dade29d",
                 "resourcePath": "sprites\\spr_Oldman_LivingRoom\\spr_Oldman_LivingRoom.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4ec2fc1-8f85-486a-abbc-414b3330a5fd",
+            "Value": {
+                "id": "ce38ef0d-bcaf-4b5f-9acb-1d5b23f9f02b",
+                "resourcePath": "sounds\\snd_woman\\snd_woman.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1796,6 +1820,14 @@
                 "id": "2e1b433b-e02f-4180-914f-8955c3c92ff4",
                 "resourcePath": "objects\\obj_toilet_paper\\obj_toilet_paper.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eac32992-e146-4f9b-9c23-463861f5e8cc",
+            "Value": {
+                "id": "7c2bdfe2-7497-4a2a-82af-7e840f699bf5",
+                "resourcePath": "sounds\\snd_woman_yelling\\snd_woman_yelling.yy",
+                "resourceType": "GMSound"
             }
         },
         {

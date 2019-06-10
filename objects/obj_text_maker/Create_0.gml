@@ -34,5 +34,6 @@ textBox.range_before_it_appears = 100000;
 
 i = 0;
 textBox.dialouge = dialouge[i];
+if(sound[i] == owner) textBox.x = 1300;
 audio_play_sound(sound[i], 2, false);
 alarm_set(0, 3 * room_speed);

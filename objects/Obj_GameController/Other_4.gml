@@ -52,7 +52,12 @@ if(room == rm_studio_cut_scene_end_game)
 	alarm_set(3, 7 * room_speed);
 	alarm_set(4, 9 * room_speed);
 	alarm_set(5, 21 * room_speed);
-	
+	alarm_set(6, 22.5 * room_speed);
 }
+if(room == rm_ending) audio_play_sound(snd_end_game, 1, true);
 if(room == rm_Main_menu) audio_play_sound(snd_main_menu, 1, true);
-else audio_stop_sound(snd_main_menu);
+if(room == rm_cut_scene) audio_stop_sound(snd_main_menu);
+
+
+if(room == rm_dog_napper_house) audio_play_sound(snd_dog_napper_house, 4, true)
+if(room == rm_outside_near_studio) audio_stop_sound(snd_dog_napper_house);
