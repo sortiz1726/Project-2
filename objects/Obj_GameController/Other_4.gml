@@ -54,3 +54,5 @@ if(room == rm_studio_cut_scene_end_game)
 	alarm_set(5, 21 * room_speed);
 	
 }
+if(room == rm_Main_menu) audio_play_sound(snd_main_menu, 1, true);
+else audio_stop_sound(snd_main_menu);

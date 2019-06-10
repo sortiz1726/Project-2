@@ -21,7 +21,5 @@ if(debug)
 	{
 		room_goto(rm_outside_near_studio);
 	}
-	
-	
 }
 
