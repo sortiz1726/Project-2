@@ -1551,6 +1551,14 @@
             }
         },
         {
+            "Key": "caaa8ffa-933c-4c32-8e9b-ddc5ccb8cd22",
+            "Value": {
+                "id": "929c26e4-09eb-4a7e-9740-b4fe940565b9",
+                "resourcePath": "sprites\\spr_doggycarDoor\\spr_doggycarDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cae578a3-34ed-4011-a74e-9bf1bc05e7d3",
             "Value": {
                 "id": "276152a3-7df1-4187-9b6b-a18f53463e87",
@@ -1972,6 +1980,14 @@
                 "id": "ef117b76-75f9-439e-8f58-e5b56a503a41",
                 "resourcePath": "sounds\\snd_car\\snd_car.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f50eb11a-85cc-4d60-937f-ed233e1a4cb7",
+            "Value": {
+                "id": "03a95fe8-3cfd-401d-b02b-e5e8c4eae8ab",
+                "resourcePath": "objects\\object321\\object321.yy",
+                "resourceType": "GMObject"
             }
         },
         {

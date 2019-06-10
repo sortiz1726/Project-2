@@ -15,9 +15,13 @@ if(debug)
 	}
 	if(keyboard_check_pressed(ord("3")))
 	{
-		room_goto(rm_farm_area);
+		room_goto(rm_inside_car);
 	}
 	if(keyboard_check_pressed(ord("4")))
+	{
+		room_goto(rm_farm_area);
+	}
+	if(keyboard_check_pressed(ord("5")))
 	{
 		room_goto(rm_outside_near_studio);
 	}
