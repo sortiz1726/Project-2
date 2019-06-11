@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "2fcfedef-1694-413b-9a16-be47ec8bd6e5",
+            "Value": {
+                "id": "9ece22b2-fff0-4423-9103-dac1d758f15e",
+                "resourcePath": "objects\\obj_oldManDrivin\\obj_oldManDrivin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "310080c7-6936-4fe7-ac60-2c149e0a1cc3",
             "Value": {
                 "id": "736e6b12-51e3-4550-8e40-edbcf38fbc5f",
@@ -1143,6 +1151,14 @@
             }
         },
         {
+            "Key": "a2b2e955-4085-41c1-91d4-775292247a92",
+            "Value": {
+                "id": "d3be988b-59fe-49dd-bebb-4fe1987df323",
+                "resourcePath": "sprites\\spr_OldManDrivin\\spr_OldManDrivin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a3b3dc42-7a0f-4911-bfe0-73314f9d521d",
             "Value": {
                 "id": "e285298b-2ecf-4e70-beb2-21da9459b5d1",
@@ -1356,6 +1372,14 @@
                 "id": "55d20cbe-88ce-43ed-b89d-ad7a437eee60",
                 "resourcePath": "objects\\obj_keys\\obj_keys.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b7ccd6a3-bb69-4188-af14-579b73e3d410",
+            "Value": {
+                "id": "163ac17a-0639-483a-8240-ab4551e5ff61",
+                "resourcePath": "rooms\\rm_cut_scene3\\rm_cut_scene3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
